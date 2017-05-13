@@ -34,4 +34,9 @@ module.exports = {
   plugins: [
     new UnminifiedWebpackPlugin(),
   ],
+  resolve: {
+    alias: {
+      handlebars: 'handlebars/dist/handlebars.min.js',
+    },
+  },
 };

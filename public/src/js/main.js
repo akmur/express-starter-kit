@@ -2,7 +2,6 @@
 
 import $ from 'jquery';
 import app from './app';
-import './sweet-alert';
 
 document.addEventListener('DOMContentLoaded', () => {
   app.init(); // testing my custom module
