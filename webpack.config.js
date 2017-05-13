@@ -12,8 +12,8 @@ if (process.env.environment === 'dist') {
 module.exports = {
   entry: './public/src/js/main.js',
   output: {
-    path: path.resolve(__dirname, 'public'),
-    filename: './dist/js/main.bundle.js',
+    path: path.resolve(__dirname, 'public/dist/js'),
+    filename: 'main.bundle.js',
   },
   module: {
     rules: [

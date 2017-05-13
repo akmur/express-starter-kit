@@ -7,7 +7,7 @@
   },
   "scripts": {
     "autoprefixer": "postcss --use autoprefixer -r --no-map ./public/dist/css/main.css",
-    "browsersync": "browser-sync start --no-open --reload-delay 1000 --reload-debounce --proxy $npm_package_config_proxy --files './public/dist/css/main.css' './public/dist/js/main.js' './public/html/*.html'",
+    "browsersync": "browser-sync start --no-open --reload-delay 1000 --reload-debounce --proxy $npm_package_config_proxy --files './public/dist/css/main.css' './public/dist/js/main.js' './views/**.*.pug'",
     "build:css": "node-sass -o ./public/dist/css/ ./public/src/scss/main.scss && npm run autoprefixer",
     "build:js": "webpack -p --config webpack.config.js",
     "clean:css": "cleancss --compatibility ie9 -o ./public/dist/css/main.min.css ./public/dist/css/main.css",
