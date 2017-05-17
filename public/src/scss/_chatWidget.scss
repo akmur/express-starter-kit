@@ -8,14 +8,14 @@ $gray: #92959E;
 }
 
 .chat {
-  width: 490px;
-  position: fixed;
   background: #F2F5F8;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  color: #434651;
-  right: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   bottom: 0;
+  color: #434651;
+  position: fixed;
+  right: 20px;
+  width: 450px;
   
   color: #434651;
   

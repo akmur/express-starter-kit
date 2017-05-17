@@ -1,10 +1,10 @@
 const app = (() => {
-  function init() {
-    console.log('ue');
-  }
+  const bindUI = {
+    sendButton: $('#js-send'),
+  };
 
   return {
-    init,
+    bindUI,
   };
 })();
 
