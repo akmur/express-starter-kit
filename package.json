@@ -7,7 +7,7 @@
   },
   "scripts": {
     "autoprefixer": "postcss --use autoprefixer -r --no-map ./public/dist/css/main.css",
-    "browsersync": "browser-sync start --no-open --reload-delay 1000 --reload-debounce --proxy $npm_package_config_proxy --files './public/dist/css/main.css' './public/dist/js/main.js' './views/**/.*.pug'",
+    "browsersync": "browser-sync start --no-open --reload-delay 1000 --reload-debounce --proxy $npm_package_config_proxy --port 3333 --files './public/dist/css/main.css' './public/dist/js/main.js' './views/**/.*.pug'",
     "build:css": "node-sass -o ./public/dist/css/ ./public/src/scss/main.scss && npm run autoprefixer",
     "transpile:js": "./node_modules/.bin/babel ./public/src/js --out-file ./public/dist/js/bundle.js --presets=env",
     "build:js": "npm run transpile:js && npm run minify:js",
