@@ -1,11 +1,2 @@
-const app = (() => {
-  const bindUI = {
-    sendButton: $('#js-send'),
-  };
-
-  return {
-    bindUI,
-  };
-})();
-
-module.exports = app;
+const test = 'test';
+console.log(test);
